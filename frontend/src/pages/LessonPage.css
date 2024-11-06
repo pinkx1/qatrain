@@ -1,0 +1,75 @@
+.lesson-page {
+    padding: 20px;
+}
+
+.lesson-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lesson-header h1 {
+    font-size: 2rem;
+}
+
+.lesson-progress {
+    text-align: right;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 20px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+.progress-bar-fill {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.lesson-content {
+    margin-bottom: 30px;
+}
+
+.lesson-content h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.lesson-content p,
+.lesson-content ul {
+    margin-bottom: 20px;
+}
+
+.image-placeholder {
+    background-color: #e0e0e0;
+    color: #666;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.lesson-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.next-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+}

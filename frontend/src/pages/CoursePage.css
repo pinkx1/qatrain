@@ -1,0 +1,120 @@
+.course-page {
+    padding: 20px;
+}
+
+.course-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.course-header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.course-header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.course-progress-section {
+    margin-bottom: 30px;
+}
+
+.overall-progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 20px;
+    position: relative;
+}
+
+.overall-progress-fill {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.lessons-section {
+    margin-bottom: 30px;
+}
+
+.lessons-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lesson-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.lesson-progress-bar {
+    background-color: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin: 0 15px;
+    position: relative;
+}
+
+.lesson-progress-fill {
+    background-color: #2196f3;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.lesson-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.lesson-button.completed {
+    background-color: #28a745;
+}
+
+.lesson-button.in-progress {
+    background-color: #ffc107;
+}
+
+.lesson-button.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.achievements-section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.achievements-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.achievements-list li {
+    margin-bottom: 10px;
+}
+
+.achievements-list .locked {
+    color: #aaa;
+}
+
+.course-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
