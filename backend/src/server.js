@@ -1,14 +1,12 @@
 const express = require('express');
 const userRoutes = require('./routes/userRoutes');
+require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware для обработки JSON
 app.use(express.json());
 
-// Подключение маршрутов пользователей
-console.log('Подключение маршрутов пользователей');
 app.use('/api/users', userRoutes);
 
 app.listen(PORT, () => {
